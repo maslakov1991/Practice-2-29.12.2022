@@ -22,6 +22,7 @@ body{
     margin-bottom: 53px;
     font-size: 24px;
     line-height: 186%;
+    font-weight: 300;
 }
 .header-subtitle {
     margin-bottom: 43px;
@@ -35,11 +36,12 @@ body{
     height: 142px;
     width: 575px;
     font-size: 32px;
+    font-weight: 300;
     line-height: 155%;
     color: #161515;
 }
 .order {
-    padding: 26px 74px 26px 73px;
+    padding-top: 26px;
     width: 278px;
     height: 82px;
     left: 135px;
@@ -47,6 +49,7 @@ body{
     background: #161515;
     font-size: 32px;
     line-height: 29px;
+    font-weight: 300;
     color: #FFFFFF;
     text-decoration: none;
     text-align: center;
@@ -61,6 +64,7 @@ body{
     height: 82px;
     font-size: 32px;
     line-height: 60px;
+    font-weight: 300;
     text-align: center;
     color: #272727;
     padding: 13px 27px 9px 27px;
@@ -75,3 +79,84 @@ body{
     margin-top: -104px;
     margin-left: 15px;
 }
+.popular-title{
+    margin-top: 43px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.models-title{
+    margin-bottom: 84px;
+    font-weight: 400px;
+    font-size: 72px;
+    line-height: 81px;
+    text-align: center;
+    color: #000000;
+}
+
+.item-wrapper{
+    margin: 0 auto;
+    width: 417px;
+}
+
+.item-image-wrapper{
+    margin-bottom: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 417px;
+    height: 630px;
+    background: #F8F8F8
+}
+
+.item-title{
+    margin-bottom: 17px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+
+.item-description{
+    margin-bottom: 59px;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+    color: #161515;
+}
+
+.product-description-wrapper{
+    margin: 0 auto;
+    width: 515px;
+}
+
+.product-description-title{
+    margin-bottom: 9px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    // border-bottom: 2px solid #000000;
+}
+
+.product-description-text{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 41px;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+.product-description-text a{
+    
+    text-decoration: none;
+    color: goldenrod;
+}
+
